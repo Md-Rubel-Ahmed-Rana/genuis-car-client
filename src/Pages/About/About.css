@@ -1,0 +1,21 @@
+.about{
+    display: flex;
+    gap: 20px;
+}
+
+.about-card{
+    width: 100%;
+}
+
+.image-card img{
+    width: 100%;
+    position: relative;
+}
+
+.zed-index{
+    position: absolute;
+    top: -175px;
+    right: -264px;
+    width: 200px;
+    border-radius: 10px 0px 0px 0px;
+}
