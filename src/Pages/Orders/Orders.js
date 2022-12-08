@@ -21,7 +21,9 @@ const Orders = () => {
                 }
                 return res.json()
             })
-            .then((data) => setOrder(data))
+            .then((data) => {
+                setOrder(data)
+            })
     }, [user?.email, logOut])
 
     const handleDelete = (id) => {

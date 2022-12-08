@@ -20,7 +20,7 @@ const Services = () => {
             </div>
             <div className='services my-2'>
                 {
-                    services.map((service) => <div className='service shadow' key={service._id}>
+                    services?.map((service) => <div className='service shadow' key={service._id}>
                         <img className='img-fluid' src={service.img} alt="" />
                         <h3>{service.title}</h3>
                         <p>Price: ${service.price}</p>
